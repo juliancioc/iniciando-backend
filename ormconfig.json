@@ -1,7 +1,7 @@
 {
     "type": "postgres",
-    "host": "172.17.0.2",
-    "port": 5432,
+    "host": "localhost",
+    "port": 5433,
     "username": "postgres",
     "password": "docker",
     "database": "gostack_gobarber",
