@@ -1,10 +1,10 @@
 import { startOfHour } from 'date-fns';
 import { getCustomRepository } from 'typeorm';
 
-import AppError from '../../../shared/errors/AppError';
-import Appointment from '../../../models/Appoinment';
-import AppointmentsRepository from '../repositories/AppointmentsRepository';
+import AppError from '@shared/errors/AppError';
 
+import Appointment from '../infra/typeorm/entities/Appoinment';
+import AppointmentsRepository from '../repositories/AppointmentsRepository';
 interface Request {
     provider_id: string;
     date: Date;
